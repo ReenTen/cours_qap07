@@ -8,8 +8,8 @@ print(id(year2))
 print(id(year3))
 # создание двух переменных с одинаковыми данными и разными идентификаторами
 print()
-number = 100
-number2 = str(100)
+number = [100]
+number2 = [100]
 print(id(number))
 print(id(number2))
 # изменение идентификации переменных
