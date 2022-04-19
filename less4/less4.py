@@ -18,7 +18,7 @@ if len(name) < 3:
 elif name == '':
     print(f'Ошибка! Вы не ввели имя!')
 elif name.isdigit():
-    print(f'Имя не должно состоять из цифр!')
+    print(f'Имя должно состоять из букв!')
 else:
     print(f'Здравствуйте, {name}!')
 
