@@ -238,8 +238,13 @@ def main():
     air_airbus.travel()
     air_airbus.tickets(450)
 
+    # Сделать коллекцию из объектов и через цикл вызвать те методы, которые есть в обоихх классах.
 
-# Сделать коллекцию из объектов и через цикл вызвать те методы, которые есть в обоихх классах.
+    all_objects = [car_kia, car_bmw, car_audi, air_airbus, air_777, air_747]
+    attrs = set.intersection(*[set(object_.__dict__) for object_ in all_objects])
+    result = set.intersection(*[set(dir(object_)) for object_ in all_objects])
+    result = set(attr for attr in result if not attr.startswith("__")) - attrs
+    print(result)
 
 
 if __name__ == '__main__':
