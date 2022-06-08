@@ -1,0 +1,12 @@
+[
+  {
+        "label": "BMWSUPERCAR",
+        "mod": "super",
+        "capacity": 1000,
+        "fuel_cap": 1000,
+        "fuel_cons": 10000,
+        "max_speed": 10000,
+        "color": "монохром",
+        "year": 2008
+  }
+]
