@@ -1,0 +1,31 @@
+{
+    "Heroes": [
+        {
+            "age": 29,
+            "name": "Molecule Man",
+            "powers": [
+                "Radiation resistance",
+                "Turning tiny",
+                "Radiation blast"
+            ],
+            "secretIdentity": "Dan Jukes"
+        },
+        {
+            "age": 1000000,
+            "name": "Eternal Flame",
+            "powers": [
+                "Immortality",
+                "Heat Immunity",
+                "Inferno",
+                "Teleportation",
+                "Interdimensional travel"
+            ],
+            "secretIdentity": "Unknown"
+        }
+    ],
+    "Main Info": {
+        "homeTown": "Metro City",
+        "secretBase": "Super tower",
+        "squadName": "Super hero squad"
+    }
+}
